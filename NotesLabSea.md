@@ -10,6 +10,8 @@ When the float is ready for a down profile, it checks the time.  If the time is 
 
 If the time is greater than this, it will start a "Long" hold cycle.  It will profile to `PressureFollowDefault`, and then adjust its piston to `PistonFollowDefualt`.  This piston position sets the depth the float will remain at until time is greater than `TimeCycleStart+TimeHoldLong`. As soon as the time is greater than this, the float moves to `PrBotHoldLong`, and then ascends to finish the profile and the cycle.
 
+John Dunlap Notes that we don't want the pressure set by `PistonFollowDefault` to be too close to `PrBotHoldLong` or an internal wave could push the float below `PrBotHoldLong` and terminate the hold.  
+
 There is another variable `TimeCycleHoldLongEnd`.  The float will not do the long profile if the time is greater than this.  So if you set this to something short, it will simply do short cycles.
 
 To get half-inertial pairs: For our latitude we want the profiles to be 14.35/2 h apart =7.175 h = 25830 s. We woudl also like a pair every 10 d, or 864000 s apart.
