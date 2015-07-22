@@ -49,4 +49,4 @@ print('TimeDescentProfHoldLong should be greater than %d'%round(cycle))
 
 ```
 
-![](./MissionParams/emasimAnnote.pdf)
+![](./MissionParams/emasimAnnote.png)
