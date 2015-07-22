@@ -1,5 +1,7 @@
 # Programming notes  Lab Sea
 
+See [](./MissionParams/runSim.sh), [](./MissionParams/PlanMission.ipynb), and [](./MissionParams/GetBallastPoints.ipynb)
+
 This was figured out with reference to `emasim.py`.  Hopefully this is relatively consistent with the control files on the floats:
 
 A "cycle" starts on a down profile.  Always.
