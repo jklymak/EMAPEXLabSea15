@@ -48,3 +48,5 @@ print('TimeCycleHoldLongBeg should be less than %d'%round(TCHLB))
 print('TimeDescentProfHoldLong should be greater than %d'%round(cycle))
 
 ```
+
+![./MissionParams/emasimAnnotate.pdf]
