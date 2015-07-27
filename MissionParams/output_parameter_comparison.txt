@@ -1,0 +1,212 @@
+
+THESE ARE DIFFERENT  JMK vs RF
+                    FloatAlpha = -3.6e-06   vs   -0.000003673
+                     FloatBeta = 3.2e-05   vs   0.000032
+                 IdFirstLevel2 = 0   vs   2
+                  ModeHoldLong = 0   vs   2
+               NstuckThreshold = 5   vs   10
+           PistonFollowDefault = 0   vs   65
+      PistonInitAscentHoldLong = 93   vs   90
+     PistonInitAscentHoldShort = 93   vs   97
+        PistonInitAscentLevel1 = 164   vs   94
+        PistonInitAscentLevel2 = 164   vs   82
+         PistonInitDescentProf = 104   vs   66
+    PistonInitDescentProfFirst = 104   vs   9
+            PistonParkPosition = 135   vs   63
+                 PrBotHoldLong = 0   vs   1650
+                PrBotHoldShort = 0   vs   1442
+                   PrBotLevel1 = 50   vs   1330
+                   PrBotLevel2 = 80   vs   100
+                     PrBotYoyo = 50   vs   100
+      PreludePressureThreshold = 5   vs   10
+            PressureAnticipate = 20   vs   3
+          PressureBallastPoint = 1000   vs   2000
+         PressureFollowDefault = 0   vs   1600
+                  PressurePark = 1000   vs   1500
+          SalinityBallastPoint = 35.7   vs   34.6
+       TemperatureBallastPoint = 13   vs   1.8
+          TimeCycleHoldLongBeg = 0   vs   22000
+          TimeCycleHoldLongEnd = 0   vs   100000
+                  TimeCycleRep = 0   vs   38000
+               TimeDescentDeep = 15000   vs   20000
+               TimeDescentProf = 1800   vs   95000
+       TimeDescentProfHoldLong = 0   vs   900000
+      TimeDescentProfHoldShort = 0   vs   14300
+                      TimeDown = 43200   vs   0
+               TimeForRecovery = 7200   vs   0
+                TimeGpsGrabRep = 30   vs   15
+                  TimeHoldLong = 0   vs   845833
+                        TimeUp = 50000   vs   32000
+                     TmoAscent = 2400   vs   30000
+                  TmoTelemetry = 100   vs   600
+NOT IN JMK
+NOT IN RF
+ConsoleBaudRate 9600
+CtdPmin 5
+CtdSampleDelPr1 2
+CtdSampleDelPr2 10
+CtdSampleDelPr3 20
+CtdSampleDelPr4 50
+CtdSampleN1 1100
+CtdSampleN2 20
+CtdSampleN3 20
+CtdSampleN4 20
+CtdSamplePrFirst 2
+CtdType 4
+DateCycleStarted 1970/01/01 00:00:00
+DateNextLevel2 1970/01/01 00:00:00
+DatePreludeEnded 1970/01/01 00:00:00
+FloatId 6416
+FloatMass 27496
+KermitPacketLength 1000
+KermitWindowSlots 3
+LoginName emapex
+ModemBaudRate 19200
+ModemType I
+Password mmt24swefs
+PhoneNumbers 0012504724187,0012065439844
+PvtDateRef 1970/01/01 00:00:00
+PvtPistonDiffMax 10
+PvtTimeAllowStartDown 360
+PvtTimeAllowStartUp 240
+PvtTimeRep 0
+PvtWaitAtSurface 0
+Pvt_alpha 12
+Pvt_b0 10
+Pvt_pmin_offset 3
+SimulationDpdtCoef 0.02
+SimulationPrBot 3000
+TM_betaMax 0.0351
+TM_betaMin 0.0349
+TM_betaNominal 0.035
+TM_fBeg 2
+TM_fft_navg 2
+TM_fft_size 2048
+TM_freqType 1
+TM_gBlkNumRequested 2
+TM_gProfNumRequested 0
+TM_profnum_offset 0
+TM_pstart 0
+TM_snf_filterType 9
+TM_snf_freqType 0
+TM_snf_t1FreqLvl_N 3
+TM_snf_t1Freq_0 0.001
+TM_snf_t1Freq_1 2
+TM_snf_t1Freq_2 120
+TM_snf_t1Freq_3 0
+TM_snf_t1Freq_4 0
+TM_snf_t1Freq_5 0
+TM_snf_t1Freq_6 0
+TM_snf_t1Freq_7 0
+TM_snf_t1Freq_8 0
+TM_snf_t1Freq_9 0
+TM_snf_t1Level_0 2e-11
+TM_snf_t1Level_1 2e-11
+TM_snf_t1Level_2 6e-10
+TM_snf_t1Level_3 0
+TM_snf_t1Level_4 0
+TM_snf_t1Level_5 0
+TM_snf_t1Level_6 0
+TM_snf_t1Level_7 0
+TM_snf_t1Level_8 0
+TM_snf_t1Level_9 0
+TM_snf_t2FreqLvl_N 3
+TM_snf_t2Freq_0 0.001
+TM_snf_t2Freq_1 2
+TM_snf_t2Freq_2 120
+TM_snf_t2Freq_3 0
+TM_snf_t2Freq_4 0
+TM_snf_t2Freq_5 0
+TM_snf_t2Freq_6 0
+TM_snf_t2Freq_7 0
+TM_snf_t2Freq_8 0
+TM_snf_t2Freq_9 0
+TM_snf_t2Level_0 2e-11
+TM_snf_t2Level_1 2e-11
+TM_snf_t2Level_2 6e-10
+TM_snf_t2Level_3 0
+TM_snf_t2Level_4 0
+TM_snf_t2Level_5 0
+TM_snf_t2Level_6 0
+TM_snf_t2Level_7 0
+TM_snf_t2Level_8 0
+TM_snf_t2Level_9 0
+TM_snf_threshFactor 1
+debuglevel 2
+logport_baud 9600
+logport_key C
+simulate_hardware 0
+simulate_pressure 0
+THESE ARE THE SAME!
+               DateForRecovery = 1970/01/01 00:00:00   vs   1970/01/01 00:00:00
+            DescentCtdScanType = 3   vs   3
+         DurationFastProfiling = 0   vs   0
+                  EfCoefFactor = 0.25   vs   0.25
+              EmaProcessNslide = 25   vs   25
+               EmaProcessNvals = 50   vs   50
+          FirstTwoProfsSpecial = 0   vs   0
+                     FlbbMaxPr = 300   vs   300
+                      FlbbMode = 0   vs   0
+          GpsAlmanacOkAtLaunch = 1   vs   1
+              HeartBeatHolding = 300   vs   300
+                 HeartBeatPark = 3600   vs   3600
+                 HeartBeatProf = 6   vs   6
+                   IridiumIRep = 0   vs   0
+                   IridiumNRep = 1   vs   1
+                     KermitBps = 100   vs   100
+                     KermitRtt = 10   vs   10
+                 MaxAirBladder = 125   vs   125
+                 ModeHoldShort = 0   vs   0
+                 OkVacuumCount = 96   vs   96
+             OpenAirValveAfter = 1   vs   1
+                   OptodeMaxPr = 2000   vs   2000
+                    OptodeMode = 1   vs   1
+           PistonBuoyancyNudge = 6   vs   6
+             PistonCountsPerCC = 0.8650790   vs   0.8650790
+     PistonDeepProfilePosition = 39   vs   39
+           PistonFullExtension = 227   vs   227
+          PistonFullRetraction = 9   vs   9
+    PistonInitialBuoyancyNudge = 22   vs   22
+         PistonStoragePosition = 16   vs   16
+                PnpCycleLength = 0   vs   0
+                 PrTopHoldLong = 0   vs   0
+                PrTopHoldShort = 0   vs   0
+                     PrTopYoyo = 0   vs   0
+              PreludeRepPeriod = 100   vs   100
+                  PressureDeep = 1950   vs   1950
+             PressureFollowMax = 0   vs   0
+             PressureFollowMin = 0   vs   0
+          PressureMaxRecordRaw = 100   vs   100
+           PressureNearSurface = 3   vs   3
+                  RawEfSaveRep = 10   vs   10
+        RawEfSendFlagProfiling = 1   vs   1
+         RawEfSendFlagRecovery = 0   vs   0
+                RawSvBytesStop = 6000000   vs   6000000
+           RecoveryIRepConnect = 0   vs   0
+           RecoveryNRepConnect = 1   vs   1
+             RecoveryRepPeriod = 900   vs   900
+           SendCurrentGpsFirst = 0   vs   0
+                   SendOnlyGps = 0   vs   0
+              SigmaThetaFollow = 0   vs   0
+              TimeCycleYoyoBeg = 0   vs   0
+              TimeCycleYoyoEnd = 0   vs   0
+               TimeDescentPark = 40000   vs   40000
+              TimeGpsUpdateRep = 1209600   vs   1209600
+                 TimeHoldShort = 0   vs   0
+                 TimeLevel2Rep = 0   vs   0
+                  TimeOutNudge = 8   vs   8
+             TimePistonIfNoObs = 0   vs   0
+                   TimePrelude = 0   vs   0
+               TimeYoyoOnceBeg = 0   vs   0
+               TimeYoyoOnceEnd = 0   vs   0
+                    TmoConnect = 300   vs   300
+                   TmoGpsAfter = 180   vs   180
+                   TmoGpsShort = 300   vs   300
+                  TmoGpsUpdate = 1800   vs   1800
+           TmoXfrFastProfiling = 1800   vs   1800
+                     TmoXfrMin = 300   vs   300
+               TmoXfrProfiling = 1200   vs   1200
+                TmoXfrRecovery = 300   vs   300
+                          Vmin = 0.12   vs   0.12
+               VstuckThreshold = 0.01   vs   0.01
+                   use_iPiston = 1   vs   1
