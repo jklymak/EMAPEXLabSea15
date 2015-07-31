@@ -1,5 +1,6 @@
 
-20150731 ================================================================
+================================================================
+20150731 
 
 I use a new admin account on bufeo.seos.uvic.ca to connect:
 
@@ -25,8 +26,14 @@ cp mkmu/out mkmu/LabseaMission001.txt.mkmu
 cp ~/python/mkmu/out ~/MISSION_UPDATES_6416 
 cp ~/python/mkmu/out ~/MISSION_UPDATES_9309
 
+================================================================
+
+20150731 ECW
+
+
+I added bufeo:~emapex/mission.log to record what’s being done to alter the floats
+as of today.
+================================================================
 
 
 
-
- ================================================================
