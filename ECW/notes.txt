@@ -1,0 +1,32 @@
+
+20150731 ================================================================
+
+I use a new admin account on bufeo.seos.uvic.ca to connect:
+
+username is oceanlab
+password is Fl0atsRBest
+
+then when necessary I use sudo su - emapex
+
+
+
+I took mission updates LabseaMission001.txt from the git repo and ran it through 
+bufeo:~/emapex/python/mkmu as follows
+
+
+sudo su - emapex
+cp ~/LabseaMission001.txt /home/emapex/python/mkmu
+cd /home/emapex/python/
+cp LabseaMission001.txt mkmu/in
+
+./mkmu.py mkmu/in  mkmu/out
+cp mkmu/out mkmu/LabseaMission001.txt.mkmu
+
+cp ~/python/mkmu/out ~/MISSION_UPDATES_6416 
+cp ~/python/mkmu/out ~/MISSION_UPDATES_9309
+
+
+
+
+
+ ================================================================
