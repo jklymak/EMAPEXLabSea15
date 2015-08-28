@@ -1,0 +1,106 @@
+# emabalpt -- ballast points for EM-APEX floats
+# used pistonadj.py to determine addwt
+# sometimes if various hold depths were used one can also determine alpha
+
+# runid   P   T      S     PC  addwt  alpha
+# P     -- pressure at ballast point
+# T     -- temperature at ballast point
+# S     -- salinity at ballast point
+# PC    -- piston counts at ballast point
+# addwt -- weight added to float, g
+# alpha -- compressibility, dV/V/dbar
+
+# Dr. Eric D'Asaro, APL/UW, launched in H. Gustav, Aug 2008
+# runid   P   T      S      PC  addwt  alpha
+  3763a  300 13.5   36.0    31    7    3.80e-6 # alpha from WRC
+  3766a  300 13.5   36.0    31    7    3.73e-6 # alpha from WRC
+
+# Dr. Helen Philips, UTAS, Kerguelen, launched Nov 2008
+# runid   P    T       S      PC addwt  alpha
+  3760a  2000  1.773  34.766  16  71   3.6394e-6 # alpha from WRC
+  3761a  2000  1.915  34.770  16  70   3.7314e-6 # alpha from WRC
+  3762a  2000  2.017  34.766  16  63   3.7600e-6 # alpha from WRC
+  3764a  2000  2.147  34.756  16  60   3.8227e-6 # alpha from WRC
+  3950a  2000  1.773  34.766  16  55   3.7249e-6 # alpha from WRC
+  3951a  2000  1.915  34.770  16  60   3.6002e-6 # alpha from WRC
+  3952a  2000  2.017  34.766  16  61   3.6316e-6 # alpha from WRC
+  4051a  2000  2.147  34.756  16  65   3.6737e-6 # alpha from WRC
+
+# Dr. James Girton, APL/UW, DIMES
+# runid   P   T      S      PC addwt  alpha
+  3767a 2000  0.4   34.71   16  52   3.6736e-6 # alpha from WRC
+  4086a 2000  0.4   34.71   16  67   3.71e-6  # alpha from WRC
+  4087a 2000  0.4   34.71   16  42   3.67e-6  # alpha from WRC
+  4595a 2000  0.4   34.71   16 -20   3.8e-6   # alpha nominal
+  4596a 2000  0.4   34.71   16 -35   3.8e-6   # alpha nominal
+  4597a 2000  0.4   34.71   16 -26   3.8e-6   # alpha nominal
+
+# Dr. Tom Sanford, APL/UW, OKMC, re-used ONR floats, launched June 2012
+# alpha determined heuristically by adjusting addwt and alpha to fit best
+# these floats were held at deep and shallow depths
+# addwt and alpha were adjusted to fit best
+# runid   P   T      S     PC  addwt  alpha
+  3763h  300 13.5   36.0   31   18   4.5e-6
+  3766h  300 13.5   36.0   31   31   4.5e-6
+  4390h  800  5.53  34.4   16   73   5.2e-6
+  4436h  800  5.53  34.4   16   42   4.1e-6  # only one depth so can't separate
+  4437h  800  5.53  34.4   16   48   4.1e-6
+  4908h 1000  4.01  34.46  16   50   4.4e-6
+  4911h 1000  4.01  34.46  16   62   4.1e-6
+  4913h 1000  4.01  34.46  16   40   3.8e-6
+  4915h 1000  4.01  34.46  16   68   4.4e-6
+
+# Dr. Helen Phillips, UTAS, delivered 2012, launched June 2013
+# runid   P   T      S       PC  addwt  alpha
+  6217a 2000  2.410 34.7048  42   20    3.8e-6 # nominal alpha
+  6218a 2000  2.410 34.7048  42   28    3.8e-6 # nominal alpha
+
+# Dr. Helen Phillips, UTAS, delivered 2013, launched June 2013
+# runid   P   T      S     PC  addwt  alpha
+  6662a 1800  2.66  34.69  42   20    3.8e-6 # nominal alpha
+  6663a 1800  2.66  34.69  42   20    3.8e-6 # nominal alpha
+  6664a 1800  2.66  34.69  42   20    3.8e-6 # nominal alpha
+
+# Dr. Miguel Angel Morales Maqueda, NOC, Liverpool
+# runid   P   T      S     PC  addwt  alpha
+  4980a 1500  0.5   34.7   42    0    3.94e-6 # from Hugh 2011
+  4980b 1500  0.5   34.7   42    0    3.94e-6 # from Hugh Aug 23, 2013
+
+# Dr. David Smeed, NOC, Southhampton
+# 4976a
+# 4977a
+
+# Dr. Ryuichiro Inoue, Jamstec
+  9002k 2020 1.9 34.59 16 0 3.8e-6 # from Hugh 2012-12-13 launched Aug 2013
+
+  9032k 2020 2.0 34.59 42 0 3.8e-6 # I suggested pc=42 2013-06-10
+  9239k 2020 1.9 34.59 42 0 3.8e-6
+
+# James launched Sept 2013
+  6478a 2000  0.4   34.71   42 21   3.8e-6   # alpha nominal
+  6480a 2000  0.4   34.71   42 15   3.8e-6   # alpha nominal
+  6481a 2000  0.4   34.71   42 15   3.8e-6   # alpha nominal
+  6625a 2000  0.4   34.71   42  8   3.8e-6   # alpha nominal
+  6626a 2000  0.4   34.71   42 14   3.8e-6   # alpha nominal
+
+# UVic -- Rowan & Jody Klymak
+  6416 2000 1.8 34.6 16
+  6417 2000 1.8 34.6 16
+  9309 2000 1.8 34.6 16
+
+# Craig's GAS-APEX hull-number 5147, fltid 7049
+# Use pc=77 after Hugh's 2014-05-05 correction email.
+# Originally Hugh had said 66 counts at the ballast point.
+  7049 500 5.0 34.6 77 0 # this works perfectly at f7049-002 at 400 dbar
+
+  nick-ss 500 14.8 35.98 42
+  nick-gm 500  8.9 35.06 42
+
+# James' Antarctic floats, to be launched Jan 2015
+  6666a 2000 0.4 34.71 42
+  6624a 2000 0.4 34.71 42
+  6479a 2000 0.4 34.71 42
+  6627a 2000 0.4 34.71 42  27 # sim matches actual pc=90 --> P=350
+
+# Miguel Maqueda
+  4980b 1500 0.5 34.7  42  0  3.94e-6 # from Hugh Aug 23, 2013

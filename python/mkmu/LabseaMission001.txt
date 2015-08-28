@@ -1,0 +1,32 @@
+IdFirstLevel2              =  2
+ModeHoldLong               =  2
+NstuckThreshold            =  10
+PistonFollowDefault        =  65    # This sets the depth after LongHoldCycle
+PistonInitAscentHoldLong   =  90
+PistonInitAscentHoldShort  =  97
+PistonInitDescentProf      =  66
+PistonInitDescentProfFirst =  9
+PistonParkPosition         =  63
+PrBotHoldLong              =  1650
+PrBotHoldShort             =  1442
+PrBotLevel1                =  1330
+PrBotLevel2                =  100
+PrBotYoyo                  =  100
+PreludePressureThreshold   =  10
+PressureBallastPoint       =  2000
+PressureFollowDefault      =  1600   # Depth Float goes to at end of the long profile
+PressurePark               =  1500
+SalinityBallastPoint       =  34.6
+TemperatureBallastPoint    =  1.8
+TimeCycleHoldLongBeg       =   22000  # set small enough that only one short cast (=2*PrBotHoldShort/speed)
+TimeCycleHoldLongEnd       =  100000 # if time is greater than this, long cycle wont run.  Not sure why you would do this
+TimeCycleRep               =   38000 # Set smaller than TimeHoldLong, larger than (=2*PrBotHoldShort/speed)
+TimeDescentDeep            =   20000  # descent time out
+TimeDescentProf            =   95000 
+TimeDescentProfHoldLong    =  900000
+TimeDescentProfHoldShort   =   14300
+TimeGpsGrabRep             =  15
+TimeHoldLong               =  845833  # this sets when the long cycle ends 
+TimeUp                     =  32000
+TmoAscent                  =  30000
+TmoTelemetry               =  600 

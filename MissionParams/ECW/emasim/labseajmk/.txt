@@ -1,0 +1,119 @@
+emasim.py: simulate emapex pressure versus time
+efpro_init          , tn=      0, it=      0, hpid=  0, dP/dt=  0.000, PC=   9.0, P=    0.0
+prelude check       , tn=      3, it=      3, hpid=  0, dP/dt=  0.183, PC=   9.0, P=    0.5
+prelude check       , tn=    102, it=    102, hpid=  0, dP/dt=  0.177, PC=   9.0, P=   18.5
+PreludeTerminate    , tn=    102, it=    102, hpid=  0, dP/dt=  0.177, PC=   9.0, P=   18.5
+
+DescentProfInit     , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6
+DescentProfInit     , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6, PistonTarget=45
+piston_big_move beg , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6, PC move= 36.0
+piston_big_move end , tn=    294, it=    180, hpid=  1, dP/dt=  0.122, PC=  45.0, P=   47.4
+AirValveOpen        , tn=    294, it=    180, hpid=  1, dP/dt=  0.122, PC=  45.0, P=   47.4
+efpro_init          , tn=    300, it=    186, hpid=  1, dP/dt=  0.121, PC=  45.0, P=   48.2
+DescentProfIsDone   , tn=    735, it=    621, hpid=  1, dP/dt=  0.123, PC=  39.0, P=  101.5, LowerPressure= 100.0
+DescentProfTerminate, tn=    744, it=    630, hpid=  1, dP/dt=  0.123, PC=  39.0, P=  102.6, PistonParkPosition= 63
+piston_big_move beg , tn=    744, it=    630, hpid=  1, dP/dt=  0.123, PC=  39.0, P=  102.6, PC move= 24
+piston_big_move end , tn=    864, it=    750, hpid=  1, dP/dt=  0.083, PC=  63.0, P=  115.1
+Sbe41cp_downloaded  , tn=    867, it=    753, hpid=  1, dP/dt=  0.082, PC=  63.0, P=  115.3
+StoreInFlash        , tn=    867, it=    753, hpid=  1, dP/dt=  0.082, PC=  63.0, P=  115.3, ef.nout= 14
+
+AscentInit          , tn=    867, it=    753, hpid=  2, dP/dt=  0.082, PC=  63.0, P=  115.3
+piston_big_move beg , tn=    867, it=    753, hpid=  2, dP/dt=  0.082, PC=  63.0, P=  115.3, PC move= 92
+started rising      , tn=    969, it=    855, hpid=  2, dP/dt= -0.013, PC=  82.8, P=  120.7, Overshoot=20.7 dbar
+piston_big_move end , tn=   1329, it=   1215, hpid=  2, dP/dt= -0.156, PC= 155.0, P=   82.6
+efpro_init          , tn=   1329, it=   1215, hpid=  2, dP/dt= -0.156, PC= 155.0, P=   82.6
+AscentIsDone        , tn=   1872, it=   1758, hpid=  2, dP/dt= -0.130, PC= 155.0, P=    2.9
+Sbe41cp_downloaded  , tn=   1875, it=   1761, hpid=  2, dP/dt= -0.129, PC= 155.0, P=    2.6
+AscentTerminate     , tn=   1884, it=   1770, hpid=  2, dP/dt= -0.129, PC= 155.0, P=    1.4
+StoreInFlash        , tn=   1884, it=   1770, hpid=  2, dP/dt= -0.129, PC= 155.0, P=    1.4, ef.nout= 18
+
+TelemetryInit       , tn=   1884, it=   1770, hpid=  2, dP/dt= -0.129, PC= 155.0, P=    1.4
+piston_big_move beg , tn=   1884, it=   1770, hpid=  2, dP/dt= -0.129, PC= 155.0, P=    1.4, PC move= 22
+piston_big_move end , tn=   1995, it=   1881, hpid=  2, dP/dt=  0.000, PC= 177.0, P=    0.0
+AirValveClose       , tn=   1995, it=   1881, hpid=  2, dP/dt=  0.000, PC= 177.0, P=    0.0
+AirValveClose       , tn=   2001, it=   1887, hpid=  2, dP/dt=  0.000, PC= 177.0, P=    0.0
+IridiumSecs= 1142 carryover= 0  Pdeepest=120.7 Nyoyo= 0 secs= 1142
+TelemetryDone       , tn=   3645, it=   3531, hpid=  2, dP/dt=  0.000, PC= 177.0, P=    0.0 secs_carryover= 0
+
+DescentProfInit     , tn=   3645, it=   3531, hpid=  3, dP/dt=  0.000, PC= 177.0, P=    0.0
+DescentProfInit     , tn=   3645, it=   3531, hpid=  3, dP/dt=  0.000, PC= 177.0, P=    0.0, PistonTarget=43
+piston_big_move beg , tn=   3645, it=   3531, hpid=  3, dP/dt=  0.000, PC= 177.0, P=    0.0, PC move= -134
+piston_big_move end , tn=   4317, it=    672, hpid=  3, dP/dt=  0.000, PC=  43.0, P=    0.0
+AirValveOpen        , tn=   4317, it=    672, hpid=  3, dP/dt=  0.000, PC=  43.0, P=    0.0
+efpro_init          , tn=   4323, it=    678, hpid=  3, dP/dt=  0.148, PC=  43.0, P=    0.9
+DescentProfIsDone   , tn=  20418, it=  16773, hpid=  3, dP/dt=  0.124, PC=  13.0, P= 2000.9, LowerPressure= 2000.0
+DescentProfTerminate, tn=  20427, it=  16782, hpid=  3, dP/dt=  0.124, PC=  13.0, P= 2002.0, PistonParkPosition= 63
+piston_big_move beg , tn=  20427, it=  16782, hpid=  3, dP/dt=  0.124, PC=  13.0, P= 2002.0, PC move= 50
+started rising      , tn=  20655, it=  17010, hpid=  3, dP/dt= -0.014, PC=  58.0, P= 2020.5, Overshoot=20.5 dbar
+piston_big_move end , tn=  20679, it=  17034, hpid=  3, dP/dt= -0.043, PC=  63.0, P= 2019.7
+Sbe41cp_downloaded  , tn=  20703, it=  17058, hpid=  3, dP/dt= -0.044, PC=  63.0, P= 2018.7
+StoreInFlash        , tn=  20703, it=  17058, hpid=  3, dP/dt= -0.044, PC=  63.0, P= 2018.7, ef.nout= 594
+
+AscentInit          , tn=  20703, it=  17058, hpid=  4, dP/dt= -0.044, PC=  63.0, P= 2018.7
+piston_big_move beg , tn=  20703, it=  17058, hpid=  4, dP/dt= -0.044, PC=  63.0, P= 2018.7, PC move= 52
+piston_big_move end , tn=  20964, it=  17319, hpid=  4, dP/dt= -0.140, PC= 115.0, P= 1992.5
+efpro_init          , tn=  20964, it=  17319, hpid=  4, dP/dt= -0.140, PC= 115.0, P= 1992.5
+AscentIsDone        , tn=  36480, it=  32835, hpid=  4, dP/dt= -0.124, PC= 151.0, P=    1.5
+Sbe41cp_downloaded  , tn=  36504, it=  32859, hpid=  4, dP/dt=  0.000, PC= 151.0, P=    0.0
+AscentTerminate     , tn=  36513, it=  32868, hpid=  4, dP/dt=  0.000, PC= 151.0, P=    0.0
+StoreInFlash        , tn=  36513, it=  32868, hpid=  4, dP/dt=  0.000, PC= 151.0, P=    0.0, ef.nout= 573
+
+TelemetryInit       , tn=  36513, it=  32868, hpid=  4, dP/dt=  0.000, PC= 151.0, P=    0.0
+piston_big_move beg , tn=  36513, it=  32868, hpid=  4, dP/dt=  0.000, PC= 151.0, P=    0.0, PC move= 22
+piston_big_move end , tn=  36624, it=  32979, hpid=  4, dP/dt=  0.000, PC= 173.0, P=    0.0
+AirValveClose       , tn=  36624, it=  32979, hpid=  4, dP/dt=  0.000, PC= 173.0, P=    0.0
+AirValveClose       , tn=  36630, it=  32985, hpid=  4, dP/dt=  0.000, PC= 173.0, P=    0.0
+IridiumSecs= 627 carryover= 0  Pdeepest=2020.5 Nyoyo= 0 secs= 627
+TelemetryDone       , tn=  37758, it=  34113, hpid=  4, dP/dt=  0.000, PC= 173.0, P=    0.0 secs_carryover= 0
+
+DescentProfInit     , tn=  37758, it=  34113, hpid=  5, dP/dt=  0.000, PC= 173.0, P=    0.0
+DescentProfInit     , tn=  37758, it=  34113, hpid=  5, dP/dt=  0.000, PC= 173.0, P=    0.0, PistonTarget=43
+piston_big_move beg , tn=  37758, it=  34113, hpid=  5, dP/dt=  0.000, PC= 173.0, P=    0.0, PC move= -130
+piston_big_move end , tn=  38409, it=    651, hpid=  5, dP/dt=  0.000, PC=  43.0, P=    0.0
+AirValveOpen        , tn=  38409, it=    651, hpid=  5, dP/dt=  0.000, PC=  43.0, P=    0.0
+efpro_init          , tn=  38415, it=    657, hpid=  5, dP/dt=  0.148, PC=  43.0, P=    0.9
+DescentProfIsDone   , tn=  54510, it=  16752, hpid=  5, dP/dt=  0.124, PC=  13.0, P= 2000.9, LowerPressure= 2000.0
+DescentProfTerminate, tn=  54519, it=  16761, hpid=  5, dP/dt=  0.124, PC=  13.0, P= 2002.0, PistonParkPosition= 63
+piston_big_move beg , tn=  54519, it=  16761, hpid=  5, dP/dt=  0.124, PC=  13.0, P= 2002.0, PC move= 50
+started rising      , tn=  54747, it=  16989, hpid=  5, dP/dt= -0.014, PC=  58.0, P= 2020.5, Overshoot=20.5 dbar
+piston_big_move end , tn=  54771, it=  17013, hpid=  5, dP/dt= -0.043, PC=  63.0, P= 2019.7
+Sbe41cp_downloaded  , tn=  54795, it=  17037, hpid=  5, dP/dt= -0.044, PC=  63.0, P= 2018.7
+StoreInFlash        , tn=  54795, it=  17037, hpid=  5, dP/dt= -0.044, PC=  63.0, P= 2018.7, ef.nout= 594
+
+AscentInit          , tn=  54795, it=  17037, hpid=  6, dP/dt= -0.044, PC=  63.0, P= 2018.7
+piston_big_move beg , tn=  54795, it=  17037, hpid=  6, dP/dt= -0.044, PC=  63.0, P= 2018.7, PC move= 52
+piston_big_move end , tn=  55056, it=  17298, hpid=  6, dP/dt= -0.140, PC= 115.0, P= 1992.5
+efpro_init          , tn=  55056, it=  17298, hpid=  6, dP/dt= -0.140, PC= 115.0, P= 1992.5
+AscentIsDone        , tn=  70572, it=  32814, hpid=  6, dP/dt= -0.124, PC= 151.0, P=    1.5
+Sbe41cp_downloaded  , tn=  70596, it=  32838, hpid=  6, dP/dt=  0.000, PC= 151.0, P=    0.0
+AscentTerminate     , tn=  70605, it=  32847, hpid=  6, dP/dt=  0.000, PC= 151.0, P=    0.0
+StoreInFlash        , tn=  70605, it=  32847, hpid=  6, dP/dt=  0.000, PC= 151.0, P=    0.0, ef.nout= 573
+
+TelemetryInit       , tn=  70605, it=  32847, hpid=  6, dP/dt=  0.000, PC= 151.0, P=    0.0
+piston_big_move beg , tn=  70605, it=  32847, hpid=  6, dP/dt=  0.000, PC= 151.0, P=    0.0, PC move= 22
+piston_big_move end , tn=  70716, it=  32958, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0
+AirValveClose       , tn=  70716, it=  32958, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0
+AirValveClose       , tn=  70722, it=  32964, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0
+IridiumSecs= 627 carryover= 0  Pdeepest=2020.5 Nyoyo= 0 secs= 627
+TelemetryDone       , tn=  71850, it=  34092, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0 secs_carryover= 0
+
+DescentParkInit     , tn=  71850, it=  34092, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0
+AirValveOpen        , tn=  71850, it=  34092, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0
+piston_big_move beg , tn=  71856, it=      6, hpid=  6, dP/dt=  0.000, PC= 173.0, P=    0.0, PC move= -110
+piston_big_move end , tn=  72408, it=    558, hpid=  6, dP/dt=  0.114, PC=  63.0, P=   17.3
+DescentParkRun      , tn=  72408, it=    558, hpid=  6, dP/dt=  0.114, PC=  63.0, P=   17.3
+DescentParkRun      , tn=  75453, it=   3603, hpid=  6, dP/dt=  0.075, PC=  63.0, P=  267.3
+DescentParkRun      , tn=  79053, it=   7203, hpid=  6, dP/dt=  0.065, PC=  63.0, P=  518.5
+DescentParkRun      , tn=  82653, it=  10803, hpid=  6, dP/dt=  0.057, PC=  63.0, P=  738.9
+DescentParkTerminate, tn=  86253, it=  14403, hpid=  6, dP/dt=  0.049, PC=  63.0, P=  929.4
+DescentParkRun      , tn=  86253, it=  14403, hpid=  6, dP/dt=  0.049, PC=  63.0, P=  929.4
+
+ParkInit            , tn=  86253, it=  14403, hpid=  6, dP/dt=  0.049, PC=  63.0, P=  929.4
+piston_big_move beg , tn=  93453, it=  21603, hpid=  6, dP/dt=  0.034, PC=  63.0, P= 1227.8, PC move= -1
+piston_big_move end , tn=  93459, it=  21609, hpid=  6, dP/dt=  0.037, PC=  62.0, P= 1228.0
+piston_big_move beg , tn= 111453, it=  39603, hpid=  6, dP/dt=  0.001, PC=  62.0, P= 1586.3, PC move= 1
+piston_big_move end , tn= 111459, it=  39609, hpid=  6, dP/dt= -0.014, PC=  63.0, P= 1586.2
+
+end emasim          , tn= 200001, it= 128151, hpid=  6, dP/dt=  0.000, PC=  63.0, P= 1506.8
+len(sho.P)= 6666
+pdffile= emasim.pdf

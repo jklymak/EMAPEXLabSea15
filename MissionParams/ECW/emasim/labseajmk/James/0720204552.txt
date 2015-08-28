@@ -1,0 +1,658 @@
+emasim.py: simulate emapex pressure versus time
+read_params(): varnam=[ConsoleBaudRate]  not decoded
+read_params(): varval=[4800]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 1 line= ConsoleBaudRate           = 4800
+  using default value
+read_params(): varnam=[CtdPmin]  not decoded
+read_params(): varval=[5]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 2 line= CtdPmin                   = 5
+  using default value
+read_params(): varnam=[CtdSampleDelPr1]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 3 line= CtdSampleDelPr1           = 2
+  using default value
+read_params(): varnam=[CtdSampleDelPr2]  not decoded
+read_params(): varval=[10]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 4 line= CtdSampleDelPr2           = 10
+  using default value
+read_params(): varnam=[CtdSampleDelPr3]  not decoded
+read_params(): varval=[20]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 5 line= CtdSampleDelPr3           = 20
+  using default value
+read_params(): varnam=[CtdSampleDelPr4]  not decoded
+read_params(): varval=[50]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 6 line= CtdSampleDelPr4           = 50
+  using default value
+read_params(): varnam=[CtdSampleN1]  not decoded
+read_params(): varval=[1100]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 7 line= CtdSampleN1               = 1100
+  using default value
+read_params(): varnam=[CtdSampleN2]  not decoded
+read_params(): varval=[20]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 8 line= CtdSampleN2               = 20
+  using default value
+read_params(): varnam=[CtdSampleN3]  not decoded
+read_params(): varval=[20]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 9 line= CtdSampleN3               = 20
+  using default value
+read_params(): varnam=[CtdSampleN4]  not decoded
+read_params(): varval=[20]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 10 line= CtdSampleN4               = 20
+  using default value
+read_params(): varnam=[CtdSamplePrFirst]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 11 line= CtdSamplePrFirst          = 2
+  using default value
+read_params(): varnam=[DateCycleStarted]  not decoded
+read_params(): varval=[2014/11/03 19:49:42]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 13 line= DateCycleStarted          = 2014/11/03 19:49:42
+  using default value
+read_params(): varnam=[DateNextLevel2]  not decoded
+read_params(): varval=[2014/11/04 08:49:42]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 15 line= DateNextLevel2            = 2014/11/04 08:49:42
+  using default value
+read_params(): varnam=[DatePreludeEnded]  not decoded
+read_params(): varval=[2013/09/16 08:18:47]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 16 line= DatePreludeEnded          = 2013/09/16 08:18:47
+  using default value
+read_params(): varnam=[FloatId]  not decoded
+read_params(): varval=[6478]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 27 line= FloatId                   = 6478
+  using default value
+read_params(): varnam=[KermitPacketLength]  not decoded
+read_params(): varval=[1000]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 37 line= KermitPacketLength        = 1000
+  using default value
+read_params(): varnam=[KermitWindowSlots]  not decoded
+read_params(): varval=[3]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 39 line= KermitWindowSlots         = 3
+  using default value
+read_params(): varnam=[LoginName]  not decoded
+read_params(): varval=[xxxxxxxxxxxxxxxxxxxx]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 40 line= LoginName                 = xxxxxxxxxxxxxxxxxxxx
+  using default value
+read_params(): varnam=[ModemBaudRate]  not decoded
+read_params(): varval=[19200]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 44 line= ModemBaudRate             = 19200
+  using default value
+read_params(): varnam=[ModemType]  not decoded
+read_params(): varval=[I]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 45 line= ModemType                 = I
+  using default value
+read_params(): varnam=[Password]  not decoded
+read_params(): varval=[xxxxxxxxxxxxxxxxxxxx]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 51 line= Password                  = xxxxxxxxxxxxxxxxxxxx
+  using default value
+read_params(): varnam=[PhoneNumbers]  not decoded
+read_params(): varval=[R0088160000533,0012062213248,0012065439844,0012065439845]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 52 line= PhoneNumbers              = R0088160000533,0012062213248,0012065439844,0012065439845
+  using default value
+read_params(): varnam=[PvtDateRef]  not decoded
+read_params(): varval=[1970/01/01 00:00:00]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 88 line= PvtDateRef                = 1970/01/01 00:00:00
+  using default value
+read_params(): varnam=[PvtPistonDiffMax]  not decoded
+read_params(): varval=[10]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 89 line= PvtPistonDiffMax          = 10
+  using default value
+read_params(): varnam=[PvtTimeAllowStartDown]  not decoded
+read_params(): varval=[360]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 90 line= PvtTimeAllowStartDown     = 360
+  using default value
+read_params(): varnam=[PvtTimeAllowStartUp]  not decoded
+read_params(): varval=[240]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 91 line= PvtTimeAllowStartUp       = 240
+  using default value
+read_params(): varnam=[PvtTimeRep]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 92 line= PvtTimeRep                = 0
+  using default value
+read_params(): varnam=[PvtWaitAtSurface]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 93 line= PvtWaitAtSurface          = 0
+  using default value
+read_params(): varnam=[Pvt_alpha]  not decoded
+read_params(): varval=[12]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 94 line= Pvt_alpha                 = 12
+  using default value
+read_params(): varnam=[Pvt_b0]  not decoded
+read_params(): varval=[10]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 95 line= Pvt_b0                    = 10
+  using default value
+read_params(): varnam=[Pvt_pmin_offset]  not decoded
+read_params(): varval=[3]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 96 line= Pvt_pmin_offset           = 3
+  using default value
+read_params(): varnam=[SimulationDpdtCoef]  not decoded
+read_params(): varval=[0.02]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 108 line= SimulationDpdtCoef        = 0.02
+  using default value
+read_params(): varnam=[SimulationPrBot]  not decoded
+read_params(): varval=[3000]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 109 line= SimulationPrBot           = 3000
+  using default value
+read_params(): varnam=[TM_betaMax]  not decoded
+read_params(): varval=[0.0351]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 110 line= TM_betaMax                = 0.0351
+  using default value
+read_params(): varnam=[TM_betaMin]  not decoded
+read_params(): varval=[0.0349]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 111 line= TM_betaMin                = 0.0349
+  using default value
+read_params(): varnam=[TM_betaNominal]  not decoded
+read_params(): varval=[0.035]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 112 line= TM_betaNominal            = 0.035
+  using default value
+read_params(): varnam=[TM_fBeg]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 113 line= TM_fBeg                   = 2
+  using default value
+read_params(): varnam=[TM_fft_navg]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 114 line= TM_fft_navg               = 2
+  using default value
+read_params(): varnam=[TM_fft_size]  not decoded
+read_params(): varval=[2048]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 115 line= TM_fft_size               = 2048
+  using default value
+read_params(): varnam=[TM_freqType]  not decoded
+read_params(): varval=[1]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 116 line= TM_freqType               = 1
+  using default value
+read_params(): varnam=[TM_gBlkNumRequested]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 117 line= TM_gBlkNumRequested       = 2
+  using default value
+read_params(): varnam=[TM_gProfNumRequested]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 118 line= TM_gProfNumRequested      = 0
+  using default value
+read_params(): varnam=[TM_profnum_offset]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 119 line= TM_profnum_offset         = 0
+  using default value
+read_params(): varnam=[TM_pstart]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 120 line= TM_pstart                 = 0
+  using default value
+read_params(): varnam=[TM_snf_filterType]  not decoded
+read_params(): varval=[9]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 121 line= TM_snf_filterType         = 9
+  using default value
+read_params(): varnam=[TM_snf_freqType]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 122 line= TM_snf_freqType           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1FreqLvl_N]  not decoded
+read_params(): varval=[3]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 123 line= TM_snf_t1FreqLvl_N        = 3
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_0]  not decoded
+read_params(): varval=[0.001]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 124 line= TM_snf_t1Freq_0           = 0.001
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_1]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 125 line= TM_snf_t1Freq_1           = 2
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_2]  not decoded
+read_params(): varval=[120]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 126 line= TM_snf_t1Freq_2           = 120
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_3]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 127 line= TM_snf_t1Freq_3           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_4]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 128 line= TM_snf_t1Freq_4           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_5]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 129 line= TM_snf_t1Freq_5           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_6]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 130 line= TM_snf_t1Freq_6           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_7]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 131 line= TM_snf_t1Freq_7           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_8]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 132 line= TM_snf_t1Freq_8           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Freq_9]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 133 line= TM_snf_t1Freq_9           = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_0]  not decoded
+read_params(): varval=[2e-11]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 134 line= TM_snf_t1Level_0          = 2e-11
+  using default value
+read_params(): varnam=[TM_snf_t1Level_1]  not decoded
+read_params(): varval=[2e-11]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 135 line= TM_snf_t1Level_1          = 2e-11
+  using default value
+read_params(): varnam=[TM_snf_t1Level_2]  not decoded
+read_params(): varval=[6e-10]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 136 line= TM_snf_t1Level_2          = 6e-10
+  using default value
+read_params(): varnam=[TM_snf_t1Level_3]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 137 line= TM_snf_t1Level_3          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_4]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 138 line= TM_snf_t1Level_4          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_5]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 139 line= TM_snf_t1Level_5          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_6]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 140 line= TM_snf_t1Level_6          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_7]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 141 line= TM_snf_t1Level_7          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_8]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 142 line= TM_snf_t1Level_8          = 0
+  using default value
+read_params(): varnam=[TM_snf_t1Level_9]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 143 line= TM_snf_t1Level_9          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2FreqLvl_N]  not decoded
+read_params(): varval=[3]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 144 line= TM_snf_t2FreqLvl_N        = 3
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_0]  not decoded
+read_params(): varval=[0.001]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 145 line= TM_snf_t2Freq_0           = 0.001
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_1]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 146 line= TM_snf_t2Freq_1           = 2
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_2]  not decoded
+read_params(): varval=[120]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 147 line= TM_snf_t2Freq_2           = 120
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_3]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 148 line= TM_snf_t2Freq_3           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_4]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 149 line= TM_snf_t2Freq_4           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_5]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 150 line= TM_snf_t2Freq_5           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_6]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 151 line= TM_snf_t2Freq_6           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_7]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 152 line= TM_snf_t2Freq_7           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_8]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 153 line= TM_snf_t2Freq_8           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Freq_9]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 154 line= TM_snf_t2Freq_9           = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_0]  not decoded
+read_params(): varval=[2e-11]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 155 line= TM_snf_t2Level_0          = 2e-11
+  using default value
+read_params(): varnam=[TM_snf_t2Level_1]  not decoded
+read_params(): varval=[2e-11]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 156 line= TM_snf_t2Level_1          = 2e-11
+  using default value
+read_params(): varnam=[TM_snf_t2Level_2]  not decoded
+read_params(): varval=[6e-10]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 157 line= TM_snf_t2Level_2          = 6e-10
+  using default value
+read_params(): varnam=[TM_snf_t2Level_3]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 158 line= TM_snf_t2Level_3          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_4]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 159 line= TM_snf_t2Level_4          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_5]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 160 line= TM_snf_t2Level_5          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_6]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 161 line= TM_snf_t2Level_6          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_7]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 162 line= TM_snf_t2Level_7          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_8]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 163 line= TM_snf_t2Level_8          = 0
+  using default value
+read_params(): varnam=[TM_snf_t2Level_9]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 164 line= TM_snf_t2Level_9          = 0
+  using default value
+read_params(): varnam=[TM_snf_threshFactor]  not decoded
+read_params(): varval=[1]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 165 line= TM_snf_threshFactor       = 1
+  using default value
+read_params(): varnam=[debuglevel]  not decoded
+read_params(): varval=[2]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 202 line= debuglevel                = 2
+  using default value
+Note: read_params(./jmklabseaparams.txt), lineno= 203 , unknown varnam skipped: hpid
+read_params(): varnam=[logport_baud]  not decoded
+read_params(): varval=[4800]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 204 line= logport_baud              = 4800
+  using default value
+read_params(): varnam=[logport_key]  not decoded
+read_params(): varval=[C]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 205 line= logport_key               = C
+  using default value
+Note: read_params(./jmklabseaparams.txt), lineno= 206 , unknown varnam skipped: mlt_vit
+read_params(): varnam=[simulate_hardware]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 207 line= simulate_hardware         = 0
+  using default value
+read_params(): varnam=[simulate_pressure]  not decoded
+read_params(): varval=[0]  not decoded
+  ifile= ./jmklabseaparams.txt lineno= 208 line= simulate_pressure         = 0
+  using default value
+Note: read_params(./jmklabseaparams.txt), lineno= 210 , unknown varnam skipped: vit_vers
+efpro_init          , tn=      0, it=      0, hpid=  0, dP/dt=  0.000, PC=   9.0, P=    0.0
+prelude check       , tn=      3, it=      3, hpid=  0, dP/dt=  0.183, PC=   9.0, P=    0.5
+prelude check       , tn=    102, it=    102, hpid=  0, dP/dt=  0.177, PC=   9.0, P=   18.5
+PreludeTerminate    , tn=    102, it=    102, hpid=  0, dP/dt=  0.177, PC=   9.0, P=   18.5
+
+DescentProfInit     , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6
+DescentProfInit     , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6, PistonTarget=9
+LongHoldFlag        , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6
+piston_big_move beg , tn=    114, it=    114, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   20.6, PC move= 0.0
+piston_big_move end , tn=    117, it=      3, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   21.1
+AirValveOpen        , tn=    117, it=      3, hpid=  1, dP/dt=  0.176, PC=   9.0, P=   21.1
+efpro_init          , tn=    123, it=      9, hpid=  1, dP/dt=  0.175, PC=   9.0, P=   22.2
+DescentProfIsDone   , tn=  10662, it=  10548, hpid=  1, dP/dt=  0.135, PC=   9.0, P= 1571.2, LowerPressure= 1570.0
+DescentProfTerminate, tn=  10671, it=  10557, hpid=  1, dP/dt=  0.135, PC=   9.0, P= 1572.4, PistonParkPosition= 42
+piston_big_move beg , tn=  10671, it=  10557, hpid=  1, dP/dt=  0.135, PC=   9.0, P= 1572.4, PC move= 33.0
+piston_big_move end , tn=  10836, it=  10722, hpid=  1, dP/dt=  0.084, PC=  42.0, P= 1590.9
+Sbe41cp_downloaded  , tn=  10854, it=  10740, hpid=  1, dP/dt=  0.083, PC=  42.0, P= 1592.3
+StoreInFlash        , tn=  10854, it=  10740, hpid=  1, dP/dt=  0.083, PC=  42.0, P= 1592.3, ef.nout= 242
+
+AscentInit          , tn=  10854, it=  10740, hpid=  2, dP/dt=  0.083, PC=  42.0, P= 1592.3
+piston_big_move beg , tn=  10854, it=  10740, hpid=  2, dP/dt=  0.083, PC=  42.0, P= 1592.3, PC move= 48
+started rising      , tn=  10959, it=  10845, hpid=  2, dP/dt= -0.014, PC=  62.4, P= 1597.9, Overshoot=27.9 dbar
+piston_big_move end , tn=  11097, it=  10983, hpid=  2, dP/dt= -0.098, PC=  90.0, P= 1588.6
+efpro_init          , tn=  11097, it=  10983, hpid=  2, dP/dt= -0.098, PC=  90.0, P= 1588.6
+AscentIsDone        , tn=  23958, it=  23844, hpid=  2, dP/dt= -0.123, PC= 150.0, P=    1.5
+Sbe41cp_downloaded  , tn=  23976, it=  23862, hpid=  2, dP/dt=  0.000, PC= 150.0, P=    0.0
+AscentTerminate     , tn=  23985, it=  23871, hpid=  2, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn=  23985, it=  23871, hpid=  2, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 296
+
+TelemetryInit       , tn=  23985, it=  23871, hpid=  2, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn=  23985, it=  23871, hpid=  2, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 22
+piston_big_move end , tn=  24096, it=  23982, hpid=  2, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn=  24096, it=  23982, hpid=  2, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn=  24102, it=  23988, hpid=  2, dP/dt=  0.000, PC= 172.0, P=    0.0
+secs= 4563 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3963  Pdeepest=1597.9 Nyoyo= 0 secs= 600
+TelemetryDone       , tn=  25203, it=  25089, hpid=  2, dP/dt=  0.000, PC= 172.0, P=    0.0 secs_carryover= 3963
+
+DescentProfInit     , tn=  25203, it=  25089, hpid=  3, dP/dt=  0.000, PC= 172.0, P=    0.0
+DescentProfInit     , tn=  25203, it=  25089, hpid=  3, dP/dt=  0.000, PC= 172.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn=  25203, it=  25089, hpid=  3, dP/dt=  0.000, PC= 172.0, P=    0.0
+piston_big_move beg , tn=  25203, it=  25089, hpid=  3, dP/dt=  0.000, PC= 172.0, P=    0.0, PC move= -106
+piston_big_move end , tn=  25734, it=    531, hpid=  3, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn=  25734, it=    531, hpid=  3, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn=  25740, it=    537, hpid=  3, dP/dt=  0.118, PC=  66.0, P=    0.7
+Holding Starting    , tn=  37857, it=  12654, hpid=  3, dP/dt=  0.125, PC=  18.0, P= 1498.1
+piston_big_move beg , tn=  37857, it=  12654, hpid=  3, dP/dt=  0.125, PC=  18.0, P= 1498.1, PC move= 44
+piston_big_move end , tn=  38079, it=  12876, hpid=  3, dP/dt=  0.019, PC=  62.0, P= 1516.8
+Holding Stopping    , tn= 101406, it=  76203, hpid=  3, dP/dt= -0.000, PC=  62.0, P= 1586.4
+piston_big_move beg , tn= 101406, it=  76203, hpid=  3, dP/dt= -0.000, PC=  62.0, P= 1586.4, PC move= -6
+piston_big_move end , tn= 101436, it=  76233, hpid=  3, dP/dt=  0.043, PC=  56.0, P= 1587.2
+t= 101436 , EMA board had been sleeping for 63582 s
+DescentProfIsDone   , tn= 102192, it=  76989, hpid=  3, dP/dt=  0.117, PC=  21.2, P= 1650.7, LowerPressure= 1650.0
+DescentProfTerminate, tn= 102201, it=  76998, hpid=  3, dP/dt=  0.117, PC=  20.6, P= 1651.7, PistonParkPosition= 42
+piston_big_move beg , tn= 102201, it=  76998, hpid=  3, dP/dt=  0.117, PC=  20.6, P= 1651.7, PC move= 21.4
+piston_big_move end , tn= 102309, it=  77106, hpid=  3, dP/dt=  0.082, PC=  42.0, P= 1662.7
+Sbe41cp_downloaded  , tn= 102330, it=  77127, hpid=  3, dP/dt=  0.081, PC=  42.0, P= 1664.4
+StoreInFlash        , tn= 102330, it=  77127, hpid=  3, dP/dt=  0.081, PC=  42.0, P= 1664.4, ef.nout= 296
+
+AscentInit          , tn= 102330, it=  77127, hpid=  4, dP/dt=  0.081, PC=  42.0, P= 1664.4
+piston_big_move beg , tn= 102330, it=  77127, hpid=  4, dP/dt=  0.081, PC=  42.0, P= 1664.4, PC move= 48
+started rising      , tn= 102429, it=  77226, hpid=  4, dP/dt= -0.007, PC=  61.2, P= 1669.6, Overshoot=19.6 dbar
+piston_big_move end , tn= 102573, it=  77370, hpid=  4, dP/dt= -0.100, PC=  90.0, P= 1659.9
+efpro_init          , tn= 102573, it=  77370, hpid=  4, dP/dt= -0.100, PC=  90.0, P= 1659.9
+AscentIsDone        , tn= 115989, it=  90786, hpid=  4, dP/dt= -0.123, PC= 150.0, P=    2.9
+Sbe41cp_downloaded  , tn= 116010, it=  90807, hpid=  4, dP/dt= -0.123, PC= 150.0, P=    0.3
+AscentTerminate     , tn= 116019, it=  90816, hpid=  4, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 116019, it=  90816, hpid=  4, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 309
+
+TelemetryInit       , tn= 116019, it=  90816, hpid=  4, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 116019, it=  90816, hpid=  4, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 22
+piston_big_move end , tn= 116130, it=  90927, hpid=  4, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 116130, it=  90927, hpid=  4, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 116136, it=  90933, hpid=  4, dP/dt=  0.000, PC= 172.0, P=    0.0
+secs= 4537 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3937  Pdeepest=1669.6 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 117237, it=  92034, hpid=  4, dP/dt=  0.000, PC= 172.0, P=    0.0 secs_carryover= 3937
+
+DescentProfInit     , tn= 117237, it=  92034, hpid=  5, dP/dt=  0.000, PC= 172.0, P=    0.0
+DescentProfInit     , tn= 117237, it=  92034, hpid=  5, dP/dt=  0.000, PC= 172.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 117237, it=  92034, hpid=  5, dP/dt=  0.000, PC= 172.0, P=    0.0
+piston_big_move beg , tn= 117237, it=  92034, hpid=  5, dP/dt=  0.000, PC= 172.0, P=    0.0, PC move= -106
+piston_big_move end , tn= 117768, it=    531, hpid=  5, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 117768, it=    531, hpid=  5, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 117774, it=    537, hpid=  5, dP/dt=  0.118, PC=  66.0, P=    0.7
+DescentProfIsDone   , tn= 130479, it=  13242, hpid=  5, dP/dt=  0.123, PC=  18.0, P= 1570.9, LowerPressure= 1570.0
+DescentProfTerminate, tn= 130488, it=  13251, hpid=  5, dP/dt=  0.123, PC=  18.0, P= 1572.0, PistonParkPosition= 42
+piston_big_move beg , tn= 130488, it=  13251, hpid=  5, dP/dt=  0.123, PC=  18.0, P= 1572.0, PC move= 24
+piston_big_move end , tn= 130608, it=  13371, hpid=  5, dP/dt=  0.084, PC=  42.0, P= 1584.6
+Sbe41cp_downloaded  , tn= 130626, it=  13389, hpid=  5, dP/dt=  0.083, PC=  42.0, P= 1586.1
+StoreInFlash        , tn= 130626, it=  13389, hpid=  5, dP/dt=  0.083, PC=  42.0, P= 1586.1, ef.nout= 292
+
+AscentInit          , tn= 130626, it=  13389, hpid=  6, dP/dt=  0.083, PC=  42.0, P= 1586.1
+piston_big_move beg , tn= 130626, it=  13389, hpid=  6, dP/dt=  0.083, PC=  42.0, P= 1586.1, PC move= 48
+started rising      , tn= 130731, it=  13494, hpid=  6, dP/dt= -0.013, PC=  62.4, P= 1591.7, Overshoot=21.7 dbar
+piston_big_move end , tn= 130869, it=  13632, hpid=  6, dP/dt= -0.098, PC=  90.0, P= 1582.4
+efpro_init          , tn= 130869, it=  13632, hpid=  6, dP/dt= -0.098, PC=  90.0, P= 1582.4
+AscentIsDone        , tn= 143679, it=  26442, hpid=  6, dP/dt= -0.120, PC= 148.8, P=    1.5
+Sbe41cp_downloaded  , tn= 143697, it=  26460, hpid=  6, dP/dt=  0.000, PC= 150.0, P=    0.0
+AscentTerminate     , tn= 143706, it=  26469, hpid=  6, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 143706, it=  26469, hpid=  6, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 295
+
+TelemetryInit       , tn= 143706, it=  26469, hpid=  6, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 143706, it=  26469, hpid=  6, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 20
+piston_big_move end , tn= 143808, it=  26571, hpid=  6, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 143808, it=  26571, hpid=  6, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 143814, it=  26577, hpid=  6, dP/dt=  0.000, PC= 170.0, P=    0.0
+secs= 4499 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3899  Pdeepest=1591.7 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 144915, it=  27678, hpid=  6, dP/dt=  0.000, PC= 170.0, P=    0.0 secs_carryover= 3899
+
+DescentProfInit     , tn= 144915, it=  27678, hpid=  7, dP/dt=  0.000, PC= 170.0, P=    0.0
+DescentProfInit     , tn= 144915, it=  27678, hpid=  7, dP/dt=  0.000, PC= 170.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 144915, it=  27678, hpid=  7, dP/dt=  0.000, PC= 170.0, P=    0.0
+piston_big_move beg , tn= 144915, it=  27678, hpid=  7, dP/dt=  0.000, PC= 170.0, P=    0.0, PC move= -104
+piston_big_move end , tn= 145437, it=    522, hpid=  7, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 145437, it=    522, hpid=  7, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 145443, it=    528, hpid=  7, dP/dt=  0.118, PC=  66.0, P=    0.7
+Holding Starting    , tn= 157560, it=  12645, hpid=  7, dP/dt=  0.125, PC=  18.0, P= 1498.1
+piston_big_move beg , tn= 157560, it=  12645, hpid=  7, dP/dt=  0.125, PC=  18.0, P= 1498.1, PC move= 44
+piston_big_move end , tn= 157782, it=  12867, hpid=  7, dP/dt=  0.019, PC=  62.0, P= 1516.8
+Holding Stopping    , tn= 218685, it=  73770, hpid=  7, dP/dt= -0.000, PC=  62.0, P= 1586.4
+piston_big_move beg , tn= 218685, it=  73770, hpid=  7, dP/dt= -0.000, PC=  62.0, P= 1586.4, PC move= -6
+piston_big_move end , tn= 218715, it=  73800, hpid=  7, dP/dt=  0.043, PC=  56.0, P= 1587.2
+t= 218715 , EMA board had been sleeping for 61158 s
+DescentProfIsDone   , tn= 219471, it=  74556, hpid=  7, dP/dt=  0.117, PC=  21.2, P= 1650.7, LowerPressure= 1650.0
+DescentProfTerminate, tn= 219480, it=  74565, hpid=  7, dP/dt=  0.117, PC=  20.6, P= 1651.7, PistonParkPosition= 42
+piston_big_move beg , tn= 219480, it=  74565, hpid=  7, dP/dt=  0.117, PC=  20.6, P= 1651.7, PC move= 21.4
+piston_big_move end , tn= 219588, it=  74673, hpid=  7, dP/dt=  0.082, PC=  42.0, P= 1662.7
+Sbe41cp_downloaded  , tn= 219609, it=  74694, hpid=  7, dP/dt=  0.081, PC=  42.0, P= 1664.4
+StoreInFlash        , tn= 219609, it=  74694, hpid=  7, dP/dt=  0.081, PC=  42.0, P= 1664.4, ef.nout= 296
+
+AscentInit          , tn= 219609, it=  74694, hpid=  8, dP/dt=  0.081, PC=  42.0, P= 1664.4
+piston_big_move beg , tn= 219609, it=  74694, hpid=  8, dP/dt=  0.081, PC=  42.0, P= 1664.4, PC move= 48
+started rising      , tn= 219708, it=  74793, hpid=  8, dP/dt= -0.007, PC=  61.2, P= 1669.6, Overshoot=19.6 dbar
+piston_big_move end , tn= 219852, it=  74937, hpid=  8, dP/dt= -0.100, PC=  90.0, P= 1659.9
+efpro_init          , tn= 219852, it=  74937, hpid=  8, dP/dt= -0.100, PC=  90.0, P= 1659.9
+AscentIsDone        , tn= 233268, it=  88353, hpid=  8, dP/dt= -0.123, PC= 150.0, P=    2.9
+Sbe41cp_downloaded  , tn= 233289, it=  88374, hpid=  8, dP/dt= -0.123, PC= 150.0, P=    0.3
+AscentTerminate     , tn= 233298, it=  88383, hpid=  8, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 233298, it=  88383, hpid=  8, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 309
+
+TelemetryInit       , tn= 233298, it=  88383, hpid=  8, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 233298, it=  88383, hpid=  8, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 22
+piston_big_move end , tn= 233409, it=  88494, hpid=  8, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 233409, it=  88494, hpid=  8, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 233415, it=  88500, hpid=  8, dP/dt=  0.000, PC= 172.0, P=    0.0
+secs= 4473 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3873  Pdeepest=1669.6 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 234516, it=  89601, hpid=  8, dP/dt=  0.000, PC= 172.0, P=    0.0 secs_carryover= 3873
+
+DescentProfInit     , tn= 234516, it=  89601, hpid=  9, dP/dt=  0.000, PC= 172.0, P=    0.0
+DescentProfInit     , tn= 234516, it=  89601, hpid=  9, dP/dt=  0.000, PC= 172.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 234516, it=  89601, hpid=  9, dP/dt=  0.000, PC= 172.0, P=    0.0
+piston_big_move beg , tn= 234516, it=  89601, hpid=  9, dP/dt=  0.000, PC= 172.0, P=    0.0, PC move= -106
+piston_big_move end , tn= 235047, it=    531, hpid=  9, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 235047, it=    531, hpid=  9, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 235053, it=    537, hpid=  9, dP/dt=  0.118, PC=  66.0, P=    0.7
+DescentProfIsDone   , tn= 247758, it=  13242, hpid=  9, dP/dt=  0.123, PC=  18.0, P= 1570.9, LowerPressure= 1570.0
+DescentProfTerminate, tn= 247767, it=  13251, hpid=  9, dP/dt=  0.123, PC=  18.0, P= 1572.0, PistonParkPosition= 42
+piston_big_move beg , tn= 247767, it=  13251, hpid=  9, dP/dt=  0.123, PC=  18.0, P= 1572.0, PC move= 24
+piston_big_move end , tn= 247887, it=  13371, hpid=  9, dP/dt=  0.084, PC=  42.0, P= 1584.6
+Sbe41cp_downloaded  , tn= 247905, it=  13389, hpid=  9, dP/dt=  0.083, PC=  42.0, P= 1586.1
+StoreInFlash        , tn= 247905, it=  13389, hpid=  9, dP/dt=  0.083, PC=  42.0, P= 1586.1, ef.nout= 292
+
+AscentInit          , tn= 247905, it=  13389, hpid= 10, dP/dt=  0.083, PC=  42.0, P= 1586.1
+piston_big_move beg , tn= 247905, it=  13389, hpid= 10, dP/dt=  0.083, PC=  42.0, P= 1586.1, PC move= 48
+started rising      , tn= 248010, it=  13494, hpid= 10, dP/dt= -0.013, PC=  62.4, P= 1591.7, Overshoot=21.7 dbar
+piston_big_move end , tn= 248148, it=  13632, hpid= 10, dP/dt= -0.098, PC=  90.0, P= 1582.4
+efpro_init          , tn= 248148, it=  13632, hpid= 10, dP/dt= -0.098, PC=  90.0, P= 1582.4
+AscentIsDone        , tn= 260958, it=  26442, hpid= 10, dP/dt= -0.120, PC= 148.8, P=    1.5
+Sbe41cp_downloaded  , tn= 260976, it=  26460, hpid= 10, dP/dt=  0.000, PC= 150.0, P=    0.0
+AscentTerminate     , tn= 260985, it=  26469, hpid= 10, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 260985, it=  26469, hpid= 10, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 295
+
+TelemetryInit       , tn= 260985, it=  26469, hpid= 10, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 260985, it=  26469, hpid= 10, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 20
+piston_big_move end , tn= 261087, it=  26571, hpid= 10, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 261087, it=  26571, hpid= 10, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 261093, it=  26577, hpid= 10, dP/dt=  0.000, PC= 170.0, P=    0.0
+secs= 4435 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3835  Pdeepest=1591.7 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 262194, it=  27678, hpid= 10, dP/dt=  0.000, PC= 170.0, P=    0.0 secs_carryover= 3835
+
+DescentProfInit     , tn= 262194, it=  27678, hpid= 11, dP/dt=  0.000, PC= 170.0, P=    0.0
+DescentProfInit     , tn= 262194, it=  27678, hpid= 11, dP/dt=  0.000, PC= 170.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 262194, it=  27678, hpid= 11, dP/dt=  0.000, PC= 170.0, P=    0.0
+piston_big_move beg , tn= 262194, it=  27678, hpid= 11, dP/dt=  0.000, PC= 170.0, P=    0.0, PC move= -104
+piston_big_move end , tn= 262716, it=    522, hpid= 11, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 262716, it=    522, hpid= 11, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 262722, it=    528, hpid= 11, dP/dt=  0.118, PC=  66.0, P=    0.7
+Holding Starting    , tn= 274839, it=  12645, hpid= 11, dP/dt=  0.125, PC=  18.0, P= 1498.1
+piston_big_move beg , tn= 274839, it=  12645, hpid= 11, dP/dt=  0.125, PC=  18.0, P= 1498.1, PC move= 44
+piston_big_move end , tn= 275061, it=  12867, hpid= 11, dP/dt=  0.019, PC=  62.0, P= 1516.8
+Holding Stopping    , tn= 335964, it=  73770, hpid= 11, dP/dt= -0.000, PC=  62.0, P= 1586.4
+piston_big_move beg , tn= 335964, it=  73770, hpid= 11, dP/dt= -0.000, PC=  62.0, P= 1586.4, PC move= -6
+piston_big_move end , tn= 335994, it=  73800, hpid= 11, dP/dt=  0.043, PC=  56.0, P= 1587.2
+t= 335994 , EMA board had been sleeping for 61158 s
+DescentProfIsDone   , tn= 336750, it=  74556, hpid= 11, dP/dt=  0.117, PC=  21.2, P= 1650.7, LowerPressure= 1650.0
+DescentProfTerminate, tn= 336759, it=  74565, hpid= 11, dP/dt=  0.117, PC=  20.6, P= 1651.7, PistonParkPosition= 42
+piston_big_move beg , tn= 336759, it=  74565, hpid= 11, dP/dt=  0.117, PC=  20.6, P= 1651.7, PC move= 21.4
+piston_big_move end , tn= 336867, it=  74673, hpid= 11, dP/dt=  0.082, PC=  42.0, P= 1662.7
+Sbe41cp_downloaded  , tn= 336888, it=  74694, hpid= 11, dP/dt=  0.081, PC=  42.0, P= 1664.4
+StoreInFlash        , tn= 336888, it=  74694, hpid= 11, dP/dt=  0.081, PC=  42.0, P= 1664.4, ef.nout= 296
+
+AscentInit          , tn= 336888, it=  74694, hpid= 12, dP/dt=  0.081, PC=  42.0, P= 1664.4
+piston_big_move beg , tn= 336888, it=  74694, hpid= 12, dP/dt=  0.081, PC=  42.0, P= 1664.4, PC move= 48
+started rising      , tn= 336987, it=  74793, hpid= 12, dP/dt= -0.007, PC=  61.2, P= 1669.6, Overshoot=19.6 dbar
+piston_big_move end , tn= 337131, it=  74937, hpid= 12, dP/dt= -0.100, PC=  90.0, P= 1659.9
+efpro_init          , tn= 337131, it=  74937, hpid= 12, dP/dt= -0.100, PC=  90.0, P= 1659.9
+AscentIsDone        , tn= 350547, it=  88353, hpid= 12, dP/dt= -0.123, PC= 150.0, P=    2.9
+Sbe41cp_downloaded  , tn= 350568, it=  88374, hpid= 12, dP/dt= -0.123, PC= 150.0, P=    0.3
+AscentTerminate     , tn= 350577, it=  88383, hpid= 12, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 350577, it=  88383, hpid= 12, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 309
+
+TelemetryInit       , tn= 350577, it=  88383, hpid= 12, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 350577, it=  88383, hpid= 12, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 22
+piston_big_move end , tn= 350688, it=  88494, hpid= 12, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 350688, it=  88494, hpid= 12, dP/dt=  0.000, PC= 172.0, P=    0.0
+AirValveClose       , tn= 350694, it=  88500, hpid= 12, dP/dt=  0.000, PC= 172.0, P=    0.0
+secs= 4409 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3809  Pdeepest=1669.6 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 351795, it=  89601, hpid= 12, dP/dt=  0.000, PC= 172.0, P=    0.0 secs_carryover= 3809
+
+DescentProfInit     , tn= 351795, it=  89601, hpid= 13, dP/dt=  0.000, PC= 172.0, P=    0.0
+DescentProfInit     , tn= 351795, it=  89601, hpid= 13, dP/dt=  0.000, PC= 172.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 351795, it=  89601, hpid= 13, dP/dt=  0.000, PC= 172.0, P=    0.0
+piston_big_move beg , tn= 351795, it=  89601, hpid= 13, dP/dt=  0.000, PC= 172.0, P=    0.0, PC move= -106
+piston_big_move end , tn= 352326, it=    531, hpid= 13, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 352326, it=    531, hpid= 13, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 352332, it=    537, hpid= 13, dP/dt=  0.118, PC=  66.0, P=    0.7
+DescentProfIsDone   , tn= 365037, it=  13242, hpid= 13, dP/dt=  0.123, PC=  18.0, P= 1570.9, LowerPressure= 1570.0
+DescentProfTerminate, tn= 365046, it=  13251, hpid= 13, dP/dt=  0.123, PC=  18.0, P= 1572.0, PistonParkPosition= 42
+piston_big_move beg , tn= 365046, it=  13251, hpid= 13, dP/dt=  0.123, PC=  18.0, P= 1572.0, PC move= 24
+piston_big_move end , tn= 365166, it=  13371, hpid= 13, dP/dt=  0.084, PC=  42.0, P= 1584.6
+Sbe41cp_downloaded  , tn= 365184, it=  13389, hpid= 13, dP/dt=  0.083, PC=  42.0, P= 1586.1
+StoreInFlash        , tn= 365184, it=  13389, hpid= 13, dP/dt=  0.083, PC=  42.0, P= 1586.1, ef.nout= 292
+
+AscentInit          , tn= 365184, it=  13389, hpid= 14, dP/dt=  0.083, PC=  42.0, P= 1586.1
+piston_big_move beg , tn= 365184, it=  13389, hpid= 14, dP/dt=  0.083, PC=  42.0, P= 1586.1, PC move= 48
+started rising      , tn= 365289, it=  13494, hpid= 14, dP/dt= -0.013, PC=  62.4, P= 1591.7, Overshoot=21.7 dbar
+piston_big_move end , tn= 365427, it=  13632, hpid= 14, dP/dt= -0.098, PC=  90.0, P= 1582.4
+efpro_init          , tn= 365427, it=  13632, hpid= 14, dP/dt= -0.098, PC=  90.0, P= 1582.4
+AscentIsDone        , tn= 378237, it=  26442, hpid= 14, dP/dt= -0.120, PC= 148.8, P=    1.5
+Sbe41cp_downloaded  , tn= 378255, it=  26460, hpid= 14, dP/dt=  0.000, PC= 150.0, P=    0.0
+AscentTerminate     , tn= 378264, it=  26469, hpid= 14, dP/dt=  0.000, PC= 150.0, P=    0.0
+StoreInFlash        , tn= 378264, it=  26469, hpid= 14, dP/dt=  0.000, PC= 150.0, P=    0.0, ef.nout= 295
+
+TelemetryInit       , tn= 378264, it=  26469, hpid= 14, dP/dt=  0.000, PC= 150.0, P=    0.0
+piston_big_move beg , tn= 378264, it=  26469, hpid= 14, dP/dt=  0.000, PC= 150.0, P=    0.0, PC move= 20
+piston_big_move end , tn= 378366, it=  26571, hpid= 14, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 378366, it=  26571, hpid= 14, dP/dt=  0.000, PC= 170.0, P=    0.0
+AirValveClose       , tn= 378372, it=  26577, hpid= 14, dP/dt=  0.000, PC= 170.0, P=    0.0
+secs= 4371 limited to mission.TmoXfrFastProfiling= 1800
+secs= 1800 limited to mission.TmoTelemetry= 600
+IridiumSecs= 600 carryover= 3771  Pdeepest=1591.7 Nyoyo= 0 secs= 600
+TelemetryDone       , tn= 379473, it=  27678, hpid= 14, dP/dt=  0.000, PC= 170.0, P=    0.0 secs_carryover= 3771
+
+DescentProfInit     , tn= 379473, it=  27678, hpid= 15, dP/dt=  0.000, PC= 170.0, P=    0.0
+DescentProfInit     , tn= 379473, it=  27678, hpid= 15, dP/dt=  0.000, PC= 170.0, P=    0.0, PistonTarget=66
+LongHoldFlag        , tn= 379473, it=  27678, hpid= 15, dP/dt=  0.000, PC= 170.0, P=    0.0
+piston_big_move beg , tn= 379473, it=  27678, hpid= 15, dP/dt=  0.000, PC= 170.0, P=    0.0, PC move= -104
+piston_big_move end , tn= 379995, it=    522, hpid= 15, dP/dt=  0.000, PC=  66.0, P=    0.0
+AirValveOpen        , tn= 379995, it=    522, hpid= 15, dP/dt=  0.000, PC=  66.0, P=    0.0
+efpro_init          , tn= 380001, it=    528, hpid= 15, dP/dt=  0.118, PC=  66.0, P=    0.7
+Holding Starting    , tn= 392118, it=  12645, hpid= 15, dP/dt=  0.125, PC=  18.0, P= 1498.1
+piston_big_move beg , tn= 392118, it=  12645, hpid= 15, dP/dt=  0.125, PC=  18.0, P= 1498.1, PC move= 44
+piston_big_move end , tn= 392340, it=  12867, hpid= 15, dP/dt=  0.019, PC=  62.0, P= 1516.8
+
+end emasim          , tn= 420000, it=  40527, hpid= 15, dP/dt=  0.000, PC=  62.0, P= 1586.4
+len(sho.P)= 14000
+pdffile= emasim.pdf

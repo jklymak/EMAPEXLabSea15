@@ -1,0 +1,231 @@
+#!/usr/bin/env python2
+# emaplt.py -- plot emapex profiles
+
+from __future__ import print_function
+
+import matplotlib
+matplotlib.use('Agg') # needed when used with cron
+
+import matplotlib.pyplot as plt
+from sys import exit
+from os import listdir
+import os
+from scipy.io import loadmat
+from collections import namedtuple
+from optparse import OptionParser
+import numpy as np
+from optparse import OptionParser
+from string import printable
+
+
+def mymkdir(mydir):
+  try: 
+    os.makedirs(mydir) # like mkdir -p
+  except OSError:
+    if not os.path.isdir(mydir):
+      print('cannot make directory:',mydir)
+      exit(1)
+
+def getmatfiles(idir,typ):
+  allfiles = sorted(listdir(idir))
+  matfiles = []
+  hpids = []
+  for ifile in allfiles:
+    if ifile.find('~') >= 0:
+      if options.verbose:
+        print('skipped backup ifile=',ifile)
+      continue
+    if not all(c in printable for c in ifile):
+      if options.verbose:
+        print('skipped non-printable ifile=',ifile)
+      continue
+    toks = ifile.split('-')
+    if toks[-1] == typ + '.mat':
+      matfiles.append(ifile)
+      hpids.append(int(toks[2]))
+  return matfiles, hpids
+
+def writepdf(pltdir, namewoext):
+  mymkdir(pltdir)
+  pdffile = os.path.join(pltdir,namewoext+'.pdf')
+  if options.verbose:
+    print('pdffile=',pdffile)
+  plt.savefig(pdffile)
+  os.system('/home/dunlap/bin/updateframe.run ' + pltdir)
+
+def main():
+  parser = OptionParser()
+
+  parser.add_option("-v", "--verbose",
+    action="store_true", dest="verbose", default=False,
+    help="print status messages to stdout")
+
+  parser.add_option("--hpid", dest="hpid", metavar='HPID', 
+    type="int", default=None, 
+    help="half profile id [default: %default]")
+
+  global options
+  (options, args) = parser.parse_args()
+
+  if len(args) < 1:
+    print('usage: pltema runid(s)')
+    exit(1)
+
+  for runid in args:
+
+    pltdir = '/home/emapex/proc/plt/' + runid
+    decdir = '/home/emapex/proc/dec/' + runid
+    veldir = '/home/emapex/proc/vel/' + runid
+
+    ctd_files, ctd_hpids = getmatfiles(decdir,'ctd')
+    vel_files, vel_hpids = getmatfiles(veldir,'vel')
+
+    if options.hpid == None:
+      hpids = vel_hpids
+    else:
+      hpids = np.tile(options.hpid,1)
+
+    for hpid_index in range(len(hpids)):
+      hpid = hpids[hpid_index]
+      ctdfile = '{0:s}/ema-{1:s}-{2:04d}-ctd.mat'.format(decdir,runid,hpid)
+      velfile = '{0:s}/ema-{1:s}-{2:04d}-vel.mat'.format(veldir,runid,hpid)
+      if options.verbose:
+        print('ctdfile=',ctdfile)
+        print('velfile=',velfile)
+
+      CTD = loadmat(ctdfile)
+      VEL = loadmat(velfile)
+
+      uxt_ctd = CTD['UXT'][0][1:]
+      Pctd = CTD['P'][0][1:]
+      Tctd = CTD['T'][0][1:]
+      Sctd = CTD['S'][0][1:]
+      pc_ctd = CTD['pc'][0][1:]
+
+      uxt_vel = VEL['uxt'][0]
+      Pvel = VEL['P'][0]
+      Tvel = VEL['T'][0]
+      Svel = VEL['S'][0]
+      dpdt_vel = VEL['W'][0]
+      pc_efp = VEL['pc_efp'][0]
+      u1 = VEL['u1'][0]
+      u2 = VEL['u2'][0]
+      v1 = VEL['v1'][0]
+      v2 = VEL['v2'][0]
+      verr1 = VEL['verr1'][0]
+      verr2 = VEL['verr2'][0]
+
+      uxt_ref = uxt_vel[0]
+      tvel = uxt_vel - uxt_ref
+      tctd = uxt_ctd - uxt_ref
+
+      dpdt_ctd = np.diff(Pctd) / np.diff(tctd)
+      tctdmid = (tctd[1:] + tctd[0:-1]) * 0.5
+
+      do_plt_ctd = True
+      if do_plt_ctd:
+        pltnam = 'ema-{0}-{1:04d}-ctd'.format(runid,hpid)
+        fig = plt.figure(num=1,figsize=(6,8))
+        fig.clf()
+        fig.suptitle(pltnam)
+
+        ax = fig.add_subplot(3,1,1)
+        ax.hold(True)
+        ax.plot(Pvel,Tvel,'b',marker='o',markeredgecolor='b')
+        ax.plot(Pctd,Tctd,'r.')
+        ax.grid(True)
+        ax.set_ylabel('T, degC')
+        ax.xaxis.set_ticklabels([])
+
+        ax = fig.add_subplot(3,1,2)
+        ax.hold(True)
+        ax.plot(Pvel,Svel,'b',marker='o',markeredgecolor='b')
+        ax.plot(Pctd,Sctd,'r.')
+        ax.grid(True)
+        ax.set_ylabel('S, psu')
+        ax.xaxis.set_ticklabels([])
+
+        ax = fig.add_subplot(3,1,3)
+        ax.hold(True)
+        ax.plot(Pvel,pc_efp,'b.')
+        ax.plot(Pctd,pc_ctd,'r.')
+        ax.grid(True)
+        ax.set_ylabel('piston')
+        ax.set_xlabel('P, dbar')
+
+        writepdf(pltdir, pltnam)
+
+      do_plt_pvt = True
+      if do_plt_pvt:
+        pltnam = 'ema-{0}-{1:04d}-pvt'.format(runid,hpid)
+        fig = plt.figure(num=1,figsize=(6,8))
+        fig.clf()
+        fig.suptitle(pltnam)
+
+        ax = fig.add_subplot(3,1,1); ax1 = ax
+        ax.hold(True)
+        ax.plot(tvel,Pvel,'b',marker='o',markeredgecolor='b')
+        ax.plot(tctd,Pctd,'r.')
+        ax.invert_yaxis()
+        ax.grid(True)
+        ax.xaxis.set_ticklabels([])
+        ax.set_ylabel('P')
+
+        ax = fig.add_subplot(3,1,2,sharex=ax1)
+        ax.hold(True)
+        ax.plot(tvel,dpdt_vel,'b',marker='o',markeredgecolor='b')
+        ax.plot(tctdmid,dpdt_ctd,'r',marker='.')
+        ax.invert_yaxis()
+        ax.grid(True)
+        ax.xaxis.set_ticklabels([])
+        ax.set_ylabel('dP/dt')
+
+        ax = fig.add_subplot(3,1,3, sharex=ax1)
+        ax.hold(True)
+        ax.plot(tvel,pc_efp,'b',marker='o',markeredgecolor='b')
+        ax.plot(tctd,pc_ctd,'r.')
+        ax.grid(True)
+        ax.set_xlabel('t, s')
+        ax.set_ylabel('pc')
+
+        writepdf(pltdir, pltnam)
+
+      do_plt_vel = True
+      if do_plt_vel:
+        pltnam = 'ema-{0}-{1:04d}-vel'.format(runid,hpid)
+        fig = plt.figure(num=1,figsize=(6,8))
+        fig.clf()
+        fig.suptitle(pltnam)
+
+        ax = fig.add_subplot(3,1,1)
+        ax.hold(True)
+        ax.plot(Pvel,u1,'b',marker='o',markeredgecolor='b')
+        ax.plot(Pvel,u2,'r.')
+        ax.hold(False)
+        ax.grid(True)
+        ax.xaxis.set_ticklabels([])
+        ax.set_ylabel('u, m/s')
+
+        ax = fig.add_subplot(3,1,2)
+        ax.hold(True)
+        ax.plot(Pvel,v1,'b',marker='o',markeredgecolor='b')
+        ax.plot(Pvel,v2,'r.')
+        ax.hold(False)
+        ax.grid(True)
+        ax.xaxis.set_ticklabels([])
+        ax.set_ylabel('v, m/s')
+
+        ax = fig.add_subplot(3,1,3)
+        ax.hold(True)
+        ax.plot(Pvel,verr1,'b',marker='o',markeredgecolor='b')
+        ax.plot(Pvel,verr2,'r.')
+        ax.hold(False)
+        ax.grid(True)
+        ax.set_ylabel('verr, m/s')
+        ax.set_xlabel('P, dbar')
+
+        writepdf(pltdir, pltnam)
+
+if __name__ == '__main__':
+  main()
+

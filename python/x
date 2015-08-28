@@ -1,0 +1,6 @@
+PrBotLevel1 = 500
+PistonInitAscentLevel1=99
+PrBotLevel1 = 100
+PistonInitAscentLevel1=120
+TimeForRecovery = 1
+DateForRecovery = 2015/04/19 11:25:00

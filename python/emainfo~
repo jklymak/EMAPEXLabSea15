@@ -1,0 +1,41 @@
+# emainfo -- information to run emapex processing
+# assigns parameters to runids
+# used by getinfo() in getinfo.py
+# default location:  /home/emapex/proc/emainfo
+#
+# Modify for multiple runs of an emapex float by
+# adding suffix with initial non-numeric character to the float number 
+# for each separate float mission.
+
+
+# put defaults here before the runid segments
+fltdir /home/emapex/data
+trndir /home/emapex/logs
+decdir /home/emapex/proc/dec
+veldir /home/emapex/proc/vel
+donedir /home/emapex/proc/donenum
+
+
+## UVic Floats for JKlymak, ECW 2015-7-31
+#runid 6416
+#  fltid 6416
+#  datebeg 2015-07-13
+#  dateend 2015-07-22
+
+#runid 9309
+#  fltid 9309
+#  datebeg 2015-07-13
+#  dateend 2015-07-22
+
+
+# ==== ECW added UVic floats for JKlymak 2015-07-21 ====
+runid 9309f
+  fltid 9309
+  datebeg 2015-07-13
+  dateend 2015-07-20
+runid 6416f
+  fltid 6416
+  datebeg 2015-07-13
+  dateend 2015-07-20
+# ======================================================
+
