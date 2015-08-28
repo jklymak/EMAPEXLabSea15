@@ -905,22 +905,23 @@ def main():
       fig.clf()
       fig.suptitle(pltnam)
 
-      uxr = uxt_ema_all[0]
+      if got_efp:
+        uxr = uxt_ema_all[0]
 
-      ax = fig.add_subplot(2,1,1); ax1 = ax
-      ax.plot((uxt_vit_all-uxr)/86400,bat_vit_all,'b.-')
-      fix_ylim(ax)
-      ax.grid(True)
-      ax.set_ylabel('APF9 bat, V')
+        ax = fig.add_subplot(2,1,1); ax1 = ax
+        ax.plot((uxt_vit_all-uxr)/86400,bat_vit_all,'b.-')
+        fix_ylim(ax)
+        ax.grid(True)
+        ax.set_ylabel('APF9 bat, V')
 
-      ax = fig.add_subplot(2,1,2,sharex=ax1)
-      ax.plot((uxt_ema_all-uxr)/86400,bat_ema_all,'b.-')
-      fix_ylim(ax)
-      ax.grid(True)
-      ax.set_ylabel('EMA bat, V')
-      ax.set_xlabel('Days')
+        ax = fig.add_subplot(2,1,2,sharex=ax1)
+        ax.plot((uxt_ema_all-uxr)/86400,bat_ema_all,'b.-')
+        fix_ylim(ax)
+        ax.grid(True)
+        ax.set_ylabel('EMA bat, V')
+        ax.set_xlabel('Days')
 
-      writeplt(procdir, runid, pltnam)
+        writeplt(procdir, runid, pltnam)
 
 #   print('len(uxt_pr_all)=',len(uxt_pr_all),'len(uxt_hol_all)=',len(uxt_hol_all))
     if do_plt_pvt_all and (len(uxt_pr_all) or len(uxt_hol_all) or len(uxt_eoa_all) or len(uxt_efp_all)):
