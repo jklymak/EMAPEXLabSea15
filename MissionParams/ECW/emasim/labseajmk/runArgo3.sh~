@@ -1,6 +1,0 @@
-#!/bin/bash
-outname=$(date +"%m%d%H%M%S")
-echo $outname
-cp jmklabseaparams.txt James/$(outname).params.txt
-python ../emasim.py -a 6416 ./Argo_labsea2_ballastinfo ./Labsea_pts_201007until201507.txt ./jmklabseaparams.txt 420000 | tee James/$outname.txt
-mv emasim.pdf James/$outname.pdf
